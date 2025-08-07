@@ -12,7 +12,7 @@ Signature	= "$Windows NT$"
 Class		= Net
 ClassGUID	= {4d36e972-e325-11ce-bfc1-08002be10318}
 Provider	= %Provider%
-DriverVer	= 02/12/2013,1.0.0.0
+DriverVer	= 07/08/2025,1.0.0.1
 CatalogFile	= VST_RNDIS.cat
 
 [Manufacturer]
@@ -42,7 +42,7 @@ ExcludeFromSelect = *
 [RNDIS.NT.5.1]
 Characteristics = 0x84   ; NCF_PHYSICAL + NCF_HAS_UI
 BusType         = 15
-DriverVer	= 02/12/2013,1.0.0.0
+DriverVer		= 02/12/2013,1.0.0.0
 AddReg          = Rndis_AddReg_Vista
 
 [RNDIS.NT.5.1.Services]
