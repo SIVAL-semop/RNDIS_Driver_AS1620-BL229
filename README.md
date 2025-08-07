@@ -3,12 +3,12 @@ Ce dossier contient les fichiers nécessaires à l'installation d'un pilote USB 
 
 CONTENU DU DOSSIER
 -------------------
-- Install.cmd                 → Script d'installation automatique (à lancer en tant qu'administrateur)
-- uninstall_signed_driver.cmd → Script de désinstallation automatique (à lancer en tant qu'administrateur)
-- testcert.pfx                → Certificat PFX utilisé pour signer le pilote
-- VST_RNDIS.inf               → Fichier INF du pilote RNDIS signé
-- VST_RNDIS.cat               → Fichier catalogue généré
-- ReadMe.txt                  → Ce fichier
+- Install.cmd                   → Script d'installation automatique (à lancer en tant qu'administrateur)
+- uninstall_signed_driver.cmd   → Script de désinstallation automatique (à lancer en tant qu'administrateur)
+- testcert.pfx                  → Certificat PFX utilisé pour signer le pilote
+- VST_RNDIS.inf                 → Fichier INF du pilote RNDIS signé
+- VST_RNDIS.cat                 → Fichier catalogue généré
+- ReadMe.md                     → Ce fichier
 
 PRÉREQUIS
 ----------
